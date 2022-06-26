@@ -100,7 +100,7 @@ function renderPhotos(hits, totalHits) {
         })
         .join('');
     gallery.insertAdjacentHTML('beforeend', markup);
-
+    let lightbox;
      lightbox = new SimpleLightbox('.gallery a', {
        captionDelay: '250',
      });
