@@ -1,5 +1,5 @@
-import './sass/_gallery.scss';
-import './sass/_form.scss';
+import './sass/index.css';
+
 const axios = require('axios');
 import axios from 'axios';
 import { Notify } from 'notiflix';
